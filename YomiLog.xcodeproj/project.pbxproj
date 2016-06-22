@@ -11,9 +11,9 @@
 		71472F751C6B362E5CCE6958 /* Pods_YomiLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAD3200912D5463E1401190 /* Pods_YomiLogUITests.framework */; };
 		750C995E1D1689D200B53EB1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 750C994E1D16896800B53EB1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		750C995F1D168A3D00B53EB1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 750C99521D16896800B53EB1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		751DC6EB1D1A7FC900DD924F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751DC6EA1D1A7FC900DD924F /* Main.storyboard */; };
 		75372E941D16F5A000AC2538 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75372E931D16F5A000AC2538 /* SwiftyJSON.framework */; };
 		75372E951D16F5A000AC2538 /* SwiftyJSON.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 75372E931D16F5A000AC2538 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7560D1FC1D1972D8007759D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7560D1FB1D1972D8007759D4 /* Main.storyboard */; };
 		75F34BFB1D1682BE0030A0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */; };
 		75F34BFD1D1682BE0030A0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34BFC1D1682BE0030A0B0 /* ViewController.swift */; };
 		75F34C021D1682BE0030A0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F34C011D1682BE0030A0B0 /* Assets.xcassets */; };
@@ -116,8 +116,8 @@
 		3FAD3200912D5463E1401190 /* Pods_YomiLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomiLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4399884BE62514E42A420B90 /* Pods-YomiLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLogTests/Pods-YomiLogTests.debug.xcconfig"; sourceTree = "<group>"; };
 		750C99431D16896800B53EB1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		751DC6EA1D1A7FC900DD924F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Main.storyboard; sourceTree = "<group>"; };
 		75372E931D16F5A000AC2538 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SwiftyJSON.framework; path = "/Users/wadadon/Library/Developer/Xcode/DerivedData/YomiLog-ggydunjikfcdrzevgqfiaxxtgcdi/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<absolute>"; };
-		7560D1FB1D1972D8007759D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		75F34BF71D1682BC0030A0B0 /* YomiLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YomiLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F34BFC1D1682BE0030A0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -220,8 +220,8 @@
 			children = (
 				75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */,
 				75F34BFC1D1682BE0030A0B0 /* ViewController.swift */,
-				7560D1FB1D1972D8007759D4 /* Main.storyboard */,
 				75F34C011D1682BE0030A0B0 /* Assets.xcassets */,
+				751DC6EA1D1A7FC900DD924F /* Main.storyboard */,
 				75F34C031D1682BE0030A0B0 /* LaunchScreen.storyboard */,
 				75F34C061D1682BE0030A0B0 /* Info.plist */,
 				750C99431D16896800B53EB1 /* Alamofire.xcodeproj */,
@@ -432,7 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7560D1FC1D1972D8007759D4 /* Main.storyboard in Resources */,
+				751DC6EB1D1A7FC900DD924F /* Main.storyboard in Resources */,
 				75F34C051D1682BE0030A0B0 /* LaunchScreen.storyboard in Resources */,
 				75F34C021D1682BE0030A0B0 /* Assets.xcassets in Resources */,
 			);
