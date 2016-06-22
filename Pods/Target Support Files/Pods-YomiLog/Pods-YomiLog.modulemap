@@ -1,0 +1,6 @@
+framework module Pods_YomiLog {
+  umbrella header "Pods-YomiLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,16 +7,79 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B3BF19BD78685D045AAA85C /* Pods_YomiLogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE50FB19C870BBECC4DCD0FB /* Pods_YomiLogTests.framework */; };
+		71472F751C6B362E5CCE6958 /* Pods_YomiLogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FAD3200912D5463E1401190 /* Pods_YomiLogUITests.framework */; };
+		750C995E1D1689D200B53EB1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 750C994E1D16896800B53EB1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		750C995F1D168A3D00B53EB1 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 750C99521D16896800B53EB1 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		75372E941D16F5A000AC2538 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75372E931D16F5A000AC2538 /* SwiftyJSON.framework */; };
+		75372E951D16F5A000AC2538 /* SwiftyJSON.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 75372E931D16F5A000AC2538 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7560D1FC1D1972D8007759D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7560D1FB1D1972D8007759D4 /* Main.storyboard */; };
 		75F34BFB1D1682BE0030A0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */; };
 		75F34BFD1D1682BE0030A0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34BFC1D1682BE0030A0B0 /* ViewController.swift */; };
-		75F34C001D1682BE0030A0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F34BFE1D1682BE0030A0B0 /* Main.storyboard */; };
 		75F34C021D1682BE0030A0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F34C011D1682BE0030A0B0 /* Assets.xcassets */; };
 		75F34C051D1682BE0030A0B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F34C031D1682BE0030A0B0 /* LaunchScreen.storyboard */; };
 		75F34C101D1682BE0030A0B0 /* YomiLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34C0F1D1682BE0030A0B0 /* YomiLogTests.swift */; };
 		75F34C1B1D1682BE0030A0B0 /* YomiLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F34C1A1D1682BE0030A0B0 /* YomiLogUITests.swift */; };
+		7A595D37B7E8CD83E7EDB1CB /* Pods_YomiLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E5B9C5EF7CC5D8D41798CF /* Pods_YomiLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		750C994D1D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		750C994F1D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		750C99511D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		750C99531D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		750C99551D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		750C99571D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		750C99591D16896800B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		750C995B1D16897200B53EB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 		75F34C0C1D1682BE0030A0B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 75F34BEF1D1682BC0030A0B0 /* Project object */;
@@ -33,11 +96,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		750C995D1D16899B00B53EB1 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				750C995F1D168A3D00B53EB1 /* Alamofire.framework in Copy Frameworks */,
+				750C995E1D1689D200B53EB1 /* Alamofire.framework in Copy Frameworks */,
+				75372E951D16F5A000AC2538 /* SwiftyJSON.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3FAD3200912D5463E1401190 /* Pods_YomiLogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomiLogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4399884BE62514E42A420B90 /* Pods-YomiLogTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLogTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLogTests/Pods-YomiLogTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750C99431D16896800B53EB1 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		75372E931D16F5A000AC2538 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = SwiftyJSON.framework; path = "/Users/wadadon/Library/Developer/Xcode/DerivedData/YomiLog-ggydunjikfcdrzevgqfiaxxtgcdi/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<absolute>"; };
+		7560D1FB1D1972D8007759D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		75F34BF71D1682BC0030A0B0 /* YomiLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YomiLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F34BFC1D1682BE0030A0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		75F34BFF1D1682BE0030A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75F34C011D1682BE0030A0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F34C041D1682BE0030A0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F34C061D1682BE0030A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +130,13 @@
 		75F34C161D1682BE0030A0B0 /* YomiLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YomiLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F34C1A1D1682BE0030A0B0 /* YomiLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YomiLogUITests.swift; sourceTree = "<group>"; };
 		75F34C1C1D1682BE0030A0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4EF25FCF8B2EABD06C1AE4 /* Pods-YomiLogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLogUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLogUITests/Pods-YomiLogUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABA15056432D47DF41FEEBE /* Pods-YomiLogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLogTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLogTests/Pods-YomiLogTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5B2C6E40F1B953F043DB1E6 /* Pods-YomiLog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLog/Pods-YomiLog.debug.xcconfig"; sourceTree = "<group>"; };
+		BE50FB19C870BBECC4DCD0FB /* Pods_YomiLogTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomiLogTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E5B9C5EF7CC5D8D41798CF /* Pods_YomiLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YomiLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00290C6EDF9893FC5625799 /* Pods-YomiLog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLog.release.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLog/Pods-YomiLog.release.xcconfig"; sourceTree = "<group>"; };
+		D72CB75385930301D736361D /* Pods-YomiLogUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YomiLogUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YomiLogUITests/Pods-YomiLogUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +144,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75372E941D16F5A000AC2538 /* SwiftyJSON.framework in Frameworks */,
+				7A595D37B7E8CD83E7EDB1CB /* Pods_YomiLog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3BF19BD78685D045AAA85C /* Pods_YomiLogTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +161,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71472F751C6B362E5CCE6958 /* Pods_YomiLogUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D4D37BB4A5E58913DB562A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5B9C5EF7CC5D8D41798CF /* Pods_YomiLog.framework */,
+				BE50FB19C870BBECC4DCD0FB /* Pods_YomiLogTests.framework */,
+				3FAD3200912D5463E1401190 /* Pods_YomiLogUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		750C99441D16896800B53EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750C994E1D16896800B53EB1 /* Alamofire.framework */,
+				750C99501D16896800B53EB1 /* Alamofire iOS Tests.xctest */,
+				750C99521D16896800B53EB1 /* Alamofire.framework */,
+				750C99541D16896800B53EB1 /* Alamofire OSX Tests.xctest */,
+				750C99561D16896800B53EB1 /* Alamofire.framework */,
+				750C99581D16896800B53EB1 /* Alamofire tvOS Tests.xctest */,
+				750C995A1D16896800B53EB1 /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		75F34BEE1D1682BC0030A0B0 = {
 			isa = PBXGroup;
 			children = (
+				75372E931D16F5A000AC2538 /* SwiftyJSON.framework */,
 				75F34BF91D1682BD0030A0B0 /* YomiLog */,
 				75F34C0E1D1682BE0030A0B0 /* YomiLogTests */,
 				75F34C191D1682BE0030A0B0 /* YomiLogUITests */,
 				75F34BF81D1682BC0030A0B0 /* Products */,
+				904D1C0AF4CCE3FD3723E4A7 /* Pods */,
+				3D4D37BB4A5E58913DB562A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +220,11 @@
 			children = (
 				75F34BFA1D1682BE0030A0B0 /* AppDelegate.swift */,
 				75F34BFC1D1682BE0030A0B0 /* ViewController.swift */,
-				75F34BFE1D1682BE0030A0B0 /* Main.storyboard */,
+				7560D1FB1D1972D8007759D4 /* Main.storyboard */,
 				75F34C011D1682BE0030A0B0 /* Assets.xcassets */,
 				75F34C031D1682BE0030A0B0 /* LaunchScreen.storyboard */,
 				75F34C061D1682BE0030A0B0 /* Info.plist */,
+				750C99431D16896800B53EB1 /* Alamofire.xcodeproj */,
 			);
 			path = YomiLog;
 			sourceTree = "<group>";
@@ -125,6 +247,19 @@
 			path = YomiLogUITests;
 			sourceTree = "<group>";
 		};
+		904D1C0AF4CCE3FD3723E4A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5B2C6E40F1B953F043DB1E6 /* Pods-YomiLog.debug.xcconfig */,
+				D00290C6EDF9893FC5625799 /* Pods-YomiLog.release.xcconfig */,
+				4399884BE62514E42A420B90 /* Pods-YomiLogTests.debug.xcconfig */,
+				7ABA15056432D47DF41FEEBE /* Pods-YomiLogTests.release.xcconfig */,
+				7A4EF25FCF8B2EABD06C1AE4 /* Pods-YomiLogUITests.debug.xcconfig */,
+				D72CB75385930301D736361D /* Pods-YomiLogUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,13 +267,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F34C1F1D1682BE0030A0B0 /* Build configuration list for PBXNativeTarget "YomiLog" */;
 			buildPhases = (
+				7A61D18192C9CD304EAF138D /* [CP] Check Pods Manifest.lock */,
 				75F34BF31D1682BC0030A0B0 /* Sources */,
 				75F34BF41D1682BC0030A0B0 /* Frameworks */,
 				75F34BF51D1682BC0030A0B0 /* Resources */,
+				D0D18248CB6883941FF6C73F /* [CP] Embed Pods Frameworks */,
+				03C72791CE7F5B657FF064F5 /* [CP] Copy Pods Resources */,
+				750C995D1D16899B00B53EB1 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				750C995C1D16897200B53EB1 /* PBXTargetDependency */,
 			);
 			name = YomiLog;
 			productName = YomiLog;
@@ -149,9 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F34C221D1682BE0030A0B0 /* Build configuration list for PBXNativeTarget "YomiLogTests" */;
 			buildPhases = (
+				D3D1218EA3187E4E31083A26 /* [CP] Check Pods Manifest.lock */,
 				75F34C071D1682BE0030A0B0 /* Sources */,
 				75F34C081D1682BE0030A0B0 /* Frameworks */,
 				75F34C091D1682BE0030A0B0 /* Resources */,
+				E86A6BAF52E93816A1B53658 /* [CP] Embed Pods Frameworks */,
+				3EDA29032E83035D8864BA51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 75F34C251D1682BE0030A0B0 /* Build configuration list for PBXNativeTarget "YomiLogUITests" */;
 			buildPhases = (
+				F7018872ABFFBCF1F6F3DCD5 /* [CP] Check Pods Manifest.lock */,
 				75F34C121D1682BE0030A0B0 /* Sources */,
 				75F34C131D1682BE0030A0B0 /* Frameworks */,
 				75F34C141D1682BE0030A0B0 /* Resources */,
+				FA045AE96B0C6DCABCCA9679 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,6 +360,12 @@
 			mainGroup = 75F34BEE1D1682BC0030A0B0;
 			productRefGroup = 75F34BF81D1682BC0030A0B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 750C99441D16896800B53EB1 /* Products */;
+					ProjectRef = 750C99431D16896800B53EB1 /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				75F34BF61D1682BC0030A0B0 /* YomiLog */,
@@ -224,14 +375,66 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		750C994E1D16896800B53EB1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 750C994D1D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C99501D16896800B53EB1 /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 750C994F1D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C99521D16896800B53EB1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 750C99511D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C99541D16896800B53EB1 /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 750C99531D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C99561D16896800B53EB1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 750C99551D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C99581D16896800B53EB1 /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 750C99571D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		750C995A1D16896800B53EB1 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 750C99591D16896800B53EB1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		75F34BF51D1682BC0030A0B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7560D1FC1D1972D8007759D4 /* Main.storyboard in Resources */,
 				75F34C051D1682BE0030A0B0 /* LaunchScreen.storyboard in Resources */,
 				75F34C021D1682BE0030A0B0 /* Assets.xcassets in Resources */,
-				75F34C001D1682BE0030A0B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +453,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03C72791CE7F5B657FF064F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YomiLog/Pods-YomiLog-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDA29032E83035D8864BA51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YomiLogTests/Pods-YomiLogTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A61D18192C9CD304EAF138D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D18248CB6883941FF6C73F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YomiLog/Pods-YomiLog-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D1218EA3187E4E31083A26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E86A6BAF52E93816A1B53658 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YomiLogTests/Pods-YomiLogTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7018872ABFFBCF1F6F3DCD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA045AE96B0C6DCABCCA9679 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YomiLogUITests/Pods-YomiLogUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		75F34BF31D1682BC0030A0B0 /* Sources */ = {
@@ -280,6 +606,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		750C995C1D16897200B53EB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 750C995B1D16897200B53EB1 /* PBXContainerItemProxy */;
+		};
 		75F34C0D1D1682BE0030A0B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75F34BF61D1682BC0030A0B0 /* YomiLog */;
@@ -293,14 +624,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		75F34BFE1D1682BE0030A0B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75F34BFF1D1682BE0030A0B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		75F34C031D1682BE0030A0B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -397,9 +720,11 @@
 		};
 		75F34C201D1682BE0030A0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B2C6E40F1B953F043DB1E6 /* Pods-YomiLog.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YomiLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DAWA.YomiLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,9 +733,11 @@
 		};
 		75F34C211D1682BE0030A0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00290C6EDF9893FC5625799 /* Pods-YomiLog.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YomiLog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DAWA.YomiLog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +746,7 @@
 		};
 		75F34C231D1682BE0030A0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4399884BE62514E42A420B90 /* Pods-YomiLogTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YomiLogTests/Info.plist;
@@ -431,6 +759,7 @@
 		};
 		75F34C241D1682BE0030A0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABA15056432D47DF41FEEBE /* Pods-YomiLogTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = YomiLogTests/Info.plist;
@@ -443,6 +772,7 @@
 		};
 		75F34C261D1682BE0030A0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4EF25FCF8B2EABD06C1AE4 /* Pods-YomiLogUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YomiLogUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +784,7 @@
 		};
 		75F34C271D1682BE0030A0B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72CB75385930301D736361D /* Pods-YomiLogUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = YomiLogUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +813,7 @@
 				75F34C211D1682BE0030A0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75F34C221D1682BE0030A0B0 /* Build configuration list for PBXNativeTarget "YomiLogTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +822,7 @@
 				75F34C241D1682BE0030A0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75F34C251D1682BE0030A0B0 /* Build configuration list for PBXNativeTarget "YomiLogUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +831,7 @@
 				75F34C271D1682BE0030A0B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
