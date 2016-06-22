@@ -46,6 +46,7 @@ class ViewController: UIViewController {
                 }
         }
         
+        
         getArticles()
     }
     
