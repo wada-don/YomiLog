@@ -16,6 +16,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //getArticles()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(true)
         getArticles()
     }
 
@@ -25,27 +30,19 @@ class ViewController: UIViewController {
     }
     
     @IBAction func StartButton(sender: AnyObject) {
-//        let toJSON: JSON =  ["name": "Jack", "age": 25]
-//        print(toJSON)
-//        
-//        let jsonString = "{\"あああ\": 25}"
-//        let dataFromString = jsonString.dataUsingEncoding(NSUTF8StringEncoding)
-//        var json = JSON(data: dataFromString!)
-//        print(json["あああ"])
+        
         let parameters = [
-            "title": "hoge",
+            "title": "foo",
             "good": 2,
-            "revew": "revew"
+            "revew": "bar"
         ]
         
         print(parameters)
-        Alamofire.request(.POST, "https://yomi-ios-wadadon.c9users.io/new",parameters: parameters,encoding: .JSON)
-            .responseString { response in
-                if let str = response.result.value{
-                    print(str)
-                }
+
+        Alamofire.request(.POST, "https://yomi-ios-wadadon.c9users.io/new",parameters: parameters, encoding: .JSON)
+            .responseString{ Error in
+                print(Error)
         }
-        
         
         getArticles()
     }
@@ -57,16 +54,15 @@ class ViewController: UIViewController {
                 return
             }
             
-            print(object)
-            if object["title"] != nil{
-                print(object["title"]) //idがtitleの要素を取得
+            let jsonObject = JSON(object)
+            jsonObject.forEach{(_, jsonObject) in
+                let title = jsonObject["title"].string
+                
+                if title != nil{
+                    print(title) //idがtitleの要素を取得
+                }
             }
             
-            
-//            let json = JSON(object)
-//            json.forEach { (_, json) in
-//                print(json["title"].string) // jsonから"title"がキーのものを取得
-//            }
             
         }
     }

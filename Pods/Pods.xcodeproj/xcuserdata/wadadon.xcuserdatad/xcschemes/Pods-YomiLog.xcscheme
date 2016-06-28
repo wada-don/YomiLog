@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7B135F79A5FF07F8CEE4BD010322FABE"
+               BlueprintIdentifier = "DE320A3BDFF53656DA2E4152F1335345"
                BuildableName = "Pods_YomiLog.framework"
                BlueprintName = "Pods-YomiLog"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7B135F79A5FF07F8CEE4BD010322FABE"
+            BlueprintIdentifier = "DE320A3BDFF53656DA2E4152F1335345"
             BuildableName = "Pods_YomiLog.framework"
             BlueprintName = "Pods-YomiLog"
             ReferencedContainer = "container:Pods.xcodeproj">

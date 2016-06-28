@@ -1,15 +1,24 @@
 PODS:
   - Alamofire (3.4.1)
+  - ENSwiftSideMenu (0.1.1)
+  - SCLAlertView (0.5.9)
+  - SwiftSpinner (0.9.5)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - ENSwiftSideMenu (~> 0.1.1)
+  - SCLAlertView
+  - SwiftSpinner
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  ENSwiftSideMenu: a934caefbe811e4925f172009349da4a49901307
+  SCLAlertView: d7c6a48c7d340e60206d4ed0e8ebcbff3b9d2a44
+  SwiftSpinner: c6585a0ae5c67eb33e737695cce88f0262008cce
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 8121b93d5ceba0db66b87f8a468463eb60a34bb3
+PODFILE CHECKSUM: 330f30d488612fd2ff7261d4b4de63d713264367
 
 COCOAPODS: 1.0.1
