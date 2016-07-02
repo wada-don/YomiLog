@@ -110,7 +110,7 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
         print(parameters)
         
-        Alamofire.request(.GET, "https://yomi-ios-wadadon.c9users.io/show") // APIへリクエストを送信
+        Alamofire.request(.GET, "https://yomi-ios-wadadon.c9users.io/show",parameters: ["goodCount":setGood]) // APIへリクエストを送信
             
             .responseString{ Error in
                 print(Error)

@@ -39,7 +39,7 @@ class MyMenuTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // Return the number of rows in the section.
-        return 5
+        return 6
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -55,8 +55,11 @@ class MyMenuTableViewController: UITableViewController {
             cell!.selectedBackgroundView = selectedBackgroundView
         }
         
-        cell!.textLabel?.text = "good =\(indexPath.row+1)"
-        
+        if(indexPath.row == 0){
+            cell!.textLabel?.text = "HOME"
+        }else{
+            cell!.textLabel?.text = "評価 : \(indexPath.row)"
+        }
         return cell!
     }
     
